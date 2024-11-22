@@ -1,0 +1,10 @@
+h1 {
+  font-family: "Poppins", "serif";
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 144px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: aquamarine;
+}
