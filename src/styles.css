@@ -65,6 +65,16 @@ footer {
   padding: 150px 0;
   margin: none;
 }
+footer h3 {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+footer p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
 .about-city {
   text-align: justify;
   text-decoration: none;
@@ -91,6 +101,9 @@ footer {
 .about-city a {
   text-decoration: none;
   color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
 }
 .about-city a:visited {
   color: white;
@@ -101,4 +114,23 @@ footer {
 }
 .about-web a:visited {
   color: white;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 100px 0;
+    margin: 0;
+  }
+  header h1 {
+    font-size: 38px;
+    line-height: 1;
+  }
+  header h2 {
+    font-size: 20px;
+    line-height: 1;
+  }
+  header h3 {
+    font-size: 12px;
+    line-height: 1;
+  }
 }
