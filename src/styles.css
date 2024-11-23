@@ -50,17 +50,20 @@ header a {
   text-decoration: none;
   border-radius: 2px;
 }
+.main {
+  background-color: white;
+}
 
 .edinburgh {
   background-color: white;
   max-width: 980px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
 }
 .img-water {
-  max-width: 500px;
+  max-width: 100%;
 }
 
 .edinburgh h2 {
@@ -68,14 +71,17 @@ header a {
   font-weight: 700;
   line-height: 1.5;
   color: #272044;
+  padding-right: 30px;
 }
 .edinburgh h3 {
   font-size: 16px;
   opacity: 30%;
   color: #272044;
   letter-spacing: 5px;
+  text-transform: uppercase;
 }
 .edinburgh p {
+  font-size: 16px;
 }
 footer {
   display: grid;
@@ -156,5 +162,21 @@ footer p {
   header h3 {
     font-size: 12px;
     line-height: 1;
+  }
+
+  .edinburgh {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+  .edinburgh h2 {
+    font-size: 20px;
+  }
+  .edinburgh h3 p {
+    font-size: 10px;
+  }
+  footer {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    padding: 10px;
   }
 }
