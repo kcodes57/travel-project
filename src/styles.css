@@ -54,16 +54,17 @@ header a {
 footer {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
-  text-align: center;
+  grid-gap: 75px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/edinburgh-7728767_1280.jpg);
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  text-align: center;
+
   padding: 150px 0;
-  margin: none;
+  max-width: 1400px;
+  margin: 30px;
 }
 footer h3 {
   font-size: 20px;
@@ -85,15 +86,14 @@ footer p {
 }
 
 .about-me {
-  padding: 0px 50px;
   text-align: justify;
 }
 .about-me h3 {
   text-align: center;
 }
 .about-web {
-  padding: 0px 50px;
   text-align: justify;
+  padding-right: 30px;
 }
 .about-web h3 {
   text-align: center;
