@@ -56,7 +56,7 @@ header a {
 
 .edinburgh {
   background-color: white;
-  max-width: 980px;
+  max-width: 1200px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
