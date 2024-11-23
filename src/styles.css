@@ -1,8 +1,15 @@
+body {
+  background-color: #133005;
+}
 .container {
   margin: 0 auto;
   max-width: 1400px;
   font-family: "Poppins", "sans-serif";
 }
+ul {
+  list-style-type: none;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/scotland-4236311_1280.jpg);
@@ -42,4 +49,56 @@ header a {
   padding: 13px 28px;
   text-decoration: none;
   border-radius: 2px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/edinburgh-7728767_1280.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 150px 0;
+  margin: none;
+}
+.about-city {
+  text-align: justify;
+  text-decoration: none;
+}
+
+.about-city h3 {
+  text-align: center;
+}
+
+.about-me {
+  padding: 0px 50px;
+  text-align: justify;
+}
+.about-me h3 {
+  text-align: center;
+}
+.about-web {
+  padding: 0px 50px;
+  text-align: justify;
+}
+.about-web h3 {
+  text-align: center;
+}
+.about-city a {
+  text-decoration: none;
+  color: white;
+}
+.about-city a:visited {
+  color: white;
+}
+.about-web a {
+  text-decoration: none;
+  color: white;
+}
+.about-web a:visited {
+  color: white;
 }
