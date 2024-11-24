@@ -56,13 +56,14 @@ header a {
 
 .edinburgh {
   background-color: white;
-  max-width: 1200px;
+  max-width: 980px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
+  padding-right: 30px;
 }
-.img-water {
+.img-responsive {
   max-width: 100%;
 }
 
