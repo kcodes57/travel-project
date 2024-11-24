@@ -1,5 +1,7 @@
 body {
   background-color: #133005;
+  color: #272044;
+  line-height: 1.5;
 }
 .container {
   margin: 0 auto;
@@ -23,7 +25,6 @@ header {
 
 header h1 {
   font-size: 96px;
-  line-height: 1.5;
   font-weight: bold;
   margin: 0;
 }
@@ -31,29 +32,24 @@ header h1 {
 header h2 {
   font-weight: normal;
   font-size: 40px;
-  line-height: 1.5;
 }
 
 header h3 {
   font-weight: bolder;
   font-size: 24px;
-  line-height: 1.5;
   letter-spacing: 5px;
 }
 
 header a {
   font-size: 14px;
-  line-height: 1.5;
   background-color: white;
-  color: #272044;
   padding: 13px 28px;
   text-decoration: none;
   border-radius: 2px;
 }
-.main {
-  background-color: white;
+.img-responsive {
+  max-width: 100%;
 }
-
 .edinburgh {
   background-color: white;
   max-width: 980px;
@@ -63,26 +59,44 @@ header a {
   grid-gap: 30px;
   padding-right: 30px;
 }
-.img-responsive {
-  max-width: 100%;
-}
 
 .edinburgh h2 {
   font-size: 40px;
   font-weight: 700;
-  line-height: 1.5;
-  color: #272044;
   padding-right: 30px;
 }
 .edinburgh h3 {
   font-size: 16px;
   opacity: 30%;
-  color: #272044;
   letter-spacing: 5px;
   text-transform: uppercase;
 }
 .edinburgh p {
   font-size: 16px;
+}
+.cafes {
+  text-align: center;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.cafes h2 {
+  font-weight: 700;
+  font-size: 48px;
+}
+.cafes h3 {
+  font-size: 24px;
+}
+.cafes h4 {
+  font-size: 16px;
+  letter-spacing: 5px;
+  opacity: 30%;
+  padding-top: 30px;
+}
+.cafes p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 70%;
 }
 footer {
   display: grid;
@@ -99,12 +113,10 @@ footer {
 }
 footer h3 {
   font-size: 20px;
-  line-height: 1.5;
   font-weight: 700;
 }
 footer p {
   font-size: 16px;
-  line-height: 1.5;
   font-weight: 400;
 }
 .about-city {
@@ -133,7 +145,6 @@ footer p {
   text-decoration: none;
   color: white;
   font-size: 16px;
-  line-height: 1.5;
   font-weight: 400;
 }
 .about-city a:visited {
@@ -148,21 +159,21 @@ footer p {
 }
 
 @media (max-width: 900px) {
+  body {
+    line-height: 1;
+  }
   header {
     padding: 100px 0;
     margin: 0;
   }
   header h1 {
     font-size: 38px;
-    line-height: 1;
   }
   header h2 {
     font-size: 20px;
-    line-height: 1;
   }
   header h3 {
     font-size: 12px;
-    line-height: 1;
   }
 
   .edinburgh {
