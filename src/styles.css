@@ -51,9 +51,12 @@ header a {
   max-width: 100%;
   display: block;
 }
+.main {
+  max-width: 100%;
+  padding: 100px 0;
+}
 .edinburgh {
   background-color: white;
-  max-width: 980px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -75,10 +78,18 @@ header a {
 .edinburgh p {
   font-size: 16px;
 }
+.cafes {
+  text-align: center;
+  background-color: #f8f8f8;
+  margin-top: 0;
+}
 .cafes-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 64px;
+}
+.embed {
+  max-width: 100%;
+  aspect-ratio: 16/9;
 }
 .card {
   background: white;
@@ -93,10 +104,6 @@ header a {
   padding: 0 30px 30px;
 }
 
-.cafes {
-  text-align: center;
-  background-color: white;
-}
 .card-body {
   text-align: justify;
 }
