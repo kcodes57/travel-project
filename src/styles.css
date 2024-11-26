@@ -120,6 +120,10 @@ main p {
   margin: 30px 0;
   padding: 0 30px;
 }
+.card-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
 .card-body {
   padding: 30px;
@@ -148,6 +152,19 @@ main p {
   padding: 16px 32px;
   border-radius: 3px;
   margin-top: 30px;
+}
+.edinburgh-photos {
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+}
+.edinburgh-photos h2 {
+  margin: 20px 20px 30px 20px;
+}
+.edinburgh-photos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 32px;
 }
 footer {
   display: grid;
@@ -209,11 +226,6 @@ footer p {
   color: white;
 }
 
-.card-header {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 @media (max-width: 900px) {
   body {
     line-height: 1;
@@ -253,5 +265,8 @@ footer p {
   .card-header {
     grid-template-columns: 1fr;
     grid-gap: 32px;
+  }
+  .edinburgh-photos-grid {
+    grid-template-columns: 1fr;
   }
 }
