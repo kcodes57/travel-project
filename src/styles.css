@@ -55,6 +55,28 @@ header a {
   max-width: 100%;
   padding: 100px 0;
 }
+main h2 {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+main h3 {
+  font-size: 24px;
+}
+
+main h4 {
+  font-size: 16px;
+  letter-spacing: 5px;
+  opacity: 30%;
+  padding-top: 30px;
+}
+
+main p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 70%;
+}
+
 .edinburgh {
   background-color: white;
   margin: 0 auto;
@@ -66,7 +88,6 @@ header a {
 
 .edinburgh h2 {
   font-size: 40px;
-  font-weight: 700;
   padding-right: 30px;
 }
 .edinburgh h3 {
@@ -75,14 +96,13 @@ header a {
   letter-spacing: 5px;
   text-transform: uppercase;
 }
-.edinburgh p {
-  font-size: 16px;
-}
+
 .cafes {
   text-align: center;
   background-color: #f8f8f8;
   margin-top: 0;
 }
+
 .cafes-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -93,7 +113,7 @@ header a {
 }
 .embed {
   width: 100%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 16/9;
 }
 .card {
   background: white;
@@ -115,15 +135,7 @@ header a {
   font-weight: 700;
   font-size: 48px;
 }
-.cafes h3 {
-  font-size: 24px;
-}
-.cafes h4 {
-  font-size: 16px;
-  letter-spacing: 5px;
-  opacity: 30%;
-  padding-top: 30px;
-}
+
 .cafes p {
   font-weight: 400;
   font-size: 16px;
@@ -197,6 +209,11 @@ footer p {
   color: white;
 }
 
+.card-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 @media (max-width: 900px) {
   body {
     line-height: 1;
@@ -232,5 +249,9 @@ footer p {
     grid-template-columns: 1fr;
     grid-gap: 30px;
     padding: 10px;
+  }
+  .card-header {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
   }
 }
